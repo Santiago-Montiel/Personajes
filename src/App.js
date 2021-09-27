@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Layout from './components/Layout';
+import Header from './components/Organisms/Header';
+import Footer from './components/Organisms/Footer';
+import Layout from './components/Molecules/Layout';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
     <>
-      <Header anime="HunterxHunter" />
+      <Header nombre="Santiago Montiel" />
       <div className="container d-flex">
         <Layout />
       </div>
